@@ -10,7 +10,6 @@
 		A22E0E7C2794C28E00E7530F /* RepositoriesPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22E0E7B2794C28E00E7530F /* RepositoriesPresenter.swift */; };
 		A23E069C2790CB4300DF2625 /* RepositoriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A23E069A2790CB4300DF2625 /* RepositoriesViewController.swift */; };
 		A23E069D2790CB4300DF2625 /* RepositoriesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A23E069B2790CB4300DF2625 /* RepositoriesViewController.xib */; };
-		A2461BBC27A562B2005EAC10 /* APIServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2461BBB27A562B2005EAC10 /* APIServiceTests.swift */; };
 		A273564E27B46169007E2761 /* UIViewController + Identifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = A273564D27B46169007E2761 /* UIViewController + Identifier.swift */; };
 		A273565027B4617A007E2761 /* UITableViewCell + Identifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = A273564F27B4617A007E2761 /* UITableViewCell + Identifier.swift */; };
 		A2980673278F53D90052028E /* UIImageView + URLExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2980672278F53D90052028E /* UIImageView + URLExtension.swift */; };
@@ -39,7 +38,6 @@
 		A23E069A2790CB4300DF2625 /* RepositoriesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoriesViewController.swift; sourceTree = "<group>"; };
 		A23E069B2790CB4300DF2625 /* RepositoriesViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RepositoriesViewController.xib; sourceTree = "<group>"; };
 		A2461BB227A56289005EAC10 /* Github ProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Github ProjectTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A2461BBB27A562B2005EAC10 /* APIServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIServiceTests.swift; sourceTree = "<group>"; };
 		A273564D27B46169007E2761 /* UIViewController + Identifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController + Identifier.swift"; sourceTree = "<group>"; };
 		A273564F27B4617A007E2761 /* UITableViewCell + Identifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableViewCell + Identifier.swift"; sourceTree = "<group>"; };
 		A2980672278F53D90052028E /* UIImageView + URLExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView + URLExtension.swift"; sourceTree = "<group>"; };
@@ -83,14 +81,6 @@
 			path = Scenes;
 			sourceTree = "<group>";
 		};
-		A2461BB327A56289005EAC10 /* Github ProjectTests */ = {
-			isa = PBXGroup;
-			children = (
-				A2461BBB27A562B2005EAC10 /* APIServiceTests.swift */,
-			);
-			path = "Github ProjectTests";
-			sourceTree = "<group>";
-		};
 		A2980671278F53BC0052028E /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
@@ -105,7 +95,6 @@
 			isa = PBXGroup;
 			children = (
 				A29FA535278384C000902F8C /* Github Project */,
-				A2461BB327A56289005EAC10 /* Github ProjectTests */,
 				A29FA534278384C000902F8C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -256,7 +245,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A2461BBC27A562B2005EAC10 /* APIServiceTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
